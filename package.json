@@ -1,8 +1,8 @@
 {
-  "name": "cuckoo",
+  "name": "davidroyer",
   "version": "1.0.0",
-  "description": "Alive Fish",
-  "author": "Louis Wei <ypliuwei@gmail.com>",
+  "description": "Nuxt.js Blog",
+  "author": "David Royer <droyer01@gmail.com>",
   "private": true,
   "scripts": {
     "dev": "cross-env HOST=0.0.0.0 nuxt",
