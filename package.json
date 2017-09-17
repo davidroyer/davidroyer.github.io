@@ -1,0 +1,38 @@
+{
+  "name": "cuckoo",
+  "version": "1.0.0",
+  "description": "Alive Fish",
+  "author": "Louis Wei <ypliuwei@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env HOST=0.0.0.0 nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "HOST=davidroyer.github.io PORT=80 NODE_ENV=production nuxtent generate",
+    "generate": "HOST=0.0.0.0 PORT=8088 nuxtent generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^2.1.0",
+    "@nuxtjs/markdownit": "^1.1.0",
+    "nuxt": "^1.0.0-rc6",
+    "nuxtent": "^0.2.77",
+    "vuetify": "^0.15"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "cross-env": "^5.0.5",
+    "eslint": "^4.3.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-html": "^3.1.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "json-loader": "^0.5.7",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1"
+  }
+}
