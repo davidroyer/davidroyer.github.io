@@ -13,7 +13,7 @@ module.exports = {
   ],
   api: {
    	baseURL: process.env.NODE_ENV === 'production'
-	    ? 'http://wi-cuckoo.github.io'
+	    ? 'http://davidroyer.github.io'
 	    : 'http://0.0.0.0:8088'
  	}
 }

@@ -10,8 +10,8 @@
     "start": "nuxt start",
     "generate": "HOST=davidroyer.github.io PORT=80 NODE_ENV=production nuxtent generate",
     "ngenerate": "HOST=0.0.0.0 PORT=8088 nuxtent generate",
-    "gdeploy": "npm run generate && push-dir --dir=dist --branch=master",
-    "ndeploy": "npm run generate && netlify deploy dist",
+    "gdeploy": "npm run ngenerate && push-dir --dir=dist --branch=master",
+    "ndeploy": "npm run ngenerate && netlify deploy dist",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint"
   },
