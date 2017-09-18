@@ -43,7 +43,7 @@
         drawer: false,
         items: [
           { title: 'Home', icon: 'home', href: '/' },
-          { title: 'Blog', icon: 'note', href: '/blog' },          
+          { title: 'Blog', icon: 'note', href: '/blog' },
           { title: 'C V', icon: 'portrait', href: '/resume' }
         ],
       }
@@ -52,6 +52,16 @@
 </script>
 
 <style>
+.page-enter-active, .page-leave-active {
+  transition: all .45s ease-in-out;
+  transition: all .45s cubic-bezier(.55,0,.1,1);
+
+  // transform: translate(30px, 0);
+}
+.page-enter, .page-leave-active {
+  opacity: 0;
+  transform: translate(10px, 0);
+}
 html
 {
   font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;

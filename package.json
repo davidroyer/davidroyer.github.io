@@ -5,7 +5,8 @@
   "author": "David Royer <droyer01@gmail.com>",
   "private": true,
   "scripts": {
-    "dev": "cross-env HOST=0.0.0.0 PORT=8088 nuxt",
+    "dev": "nuxt",
+    "ndev": "cross-env HOST=0.0.0.0 PORT=8088 nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxtent generate",
