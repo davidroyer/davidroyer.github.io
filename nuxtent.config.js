@@ -12,8 +12,11 @@ module.exports = {
     }]
   ],
   api: {
-   	baseURL: process.env.NODE_ENV === 'production'
-	    ? 'http://davidroyer.github.io'
-	    : 'http://0.0.0.0:8088'
- 	}
+    baseURL: ''
+  }
+  // api: {
+  //  	baseURL: process.env.NODE_ENV === 'production'
+	//     ? 'http://davidroyer.github.io'
+	//     : 'http://0.0.0.0:8088'
+ // 	}
 }

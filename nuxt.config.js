@@ -12,7 +12,7 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'wi-cuckoo',
+    title: 'David Royer - Front End Web Developer',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
