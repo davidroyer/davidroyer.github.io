@@ -17,9 +17,9 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^2.1.0",
+    "@nuxtjs/axios": "^4.3.0",
     "@nuxtjs/markdownit": "^1.1.0",
-    "nuxt": "^1.0.0-rc6",
+    "nuxt": "latest",
     "nuxtent": "^0.2.77",
     "vuetify": "^0.15"
   },
@@ -35,6 +35,7 @@
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^3.0.1",
     "json-loader": "^0.5.7",
+    "push-dir": "^0.4.1",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.1"
   }

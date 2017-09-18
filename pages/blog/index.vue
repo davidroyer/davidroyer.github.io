@@ -5,7 +5,7 @@
       <v-divider dark></v-divider>
       <v-list three-line>
         <template v-for="blog in blogs">
-          <v-list-tile avatar v-bind:key="blog.title" :href="'/blog' + blog.permalink">
+          <v-list-tile avatar nuxt v-bind:key="blog.title" :to="'/blog' + blog.permalink">
             <v-list-tile-content>
               <v-list-tile-title class="headline mb-2 larger-title">{{ blog.title }}</v-list-tile-title>
               <v-list-tile-sub-title>{{ blog._date }}</v-list-tile-sub-title>
